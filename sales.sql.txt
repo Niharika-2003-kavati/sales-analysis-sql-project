@@ -1,0 +1,16 @@
+CREATE TABLE sales (
+sale_id INT,
+product_name VARCHAR(50),
+category VARCHAR(50),
+quantity INT,
+price INT,
+sale_date DATE
+);
+
+INSERT INTO sales VALUES
+(1,'Laptop','Electronics',2,50000,'2025-01-10'),
+(2,'Mobile','Electronics',3,20000,'2025-01-15'),
+(3,'Headphones','Accessories',5,2000,'2025-02-05'),
+(4,'Keyboard','Accessories',4,1500,'2025-02-10'),
+(5,'Laptop','Electronics',1,50000,'2025-03-01'),
+(6,'Mouse','Accessories',6,800,'2025-03-03');
